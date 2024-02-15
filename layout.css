@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 100%;
+    color: #069 ;
+    background-color: rgba(153, 153, 215, 0.067);
+    text-align: center;
+    min-height: 100vh;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 15px 2%;
+    box-shadow: 0 0 5px #069;
+}
+.container::-webkit-scrollbar{
+    width: 14px;
+    border: 1px solid #069;
+}
+.container::-webkit-scrollbar-thumb{
+    background-color: #069;
+    border-radius: 6px;
+}
+.hr_dados1{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 5px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_dados1::after{
+    content: "JOÃO MIGUEL DOS SANTOS";
+    font-size: 1.4em;
+    padding: 0 0.3em;
+    top: -0.7em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_01{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 2px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_01::after{
+    content: "OBJETIVO";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_02{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_02::after{
+    content:"RESUMO";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_03{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_03::after{
+    content: "QUALIDADES NO AMBIENTE DE TRABALHO";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_04{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_04::after{
+    content: "LINGUAGENS";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_05{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 3px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_05::after{
+    content: "FORMAÇÂO ACADÊMICA";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+.hr_06{
+    border-top: medium dashed #069;
+    border-bottom: medium dashed #069;
+    height: 4px;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+}
+.hr_06::after{
+    content: "FIM";
+    font-size: 1em;
+    padding: 0 0.3em;
+    top: -0.5em;
+    background-color: #fff;
+    display: inline;
+    position: relative;
+}
+}
